@@ -7,7 +7,7 @@ def monopoly_with_second_tier
 end
 
 def monopoly_with_third_tier
-  {:railroads => {key: "value"}}
+  {:railroads => {rent_in_dollars: "value"}}
 end
 
 def monopoly_with_fourth_tier
