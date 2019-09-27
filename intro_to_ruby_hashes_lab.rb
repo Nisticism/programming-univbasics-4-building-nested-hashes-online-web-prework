@@ -7,7 +7,8 @@ def monopoly_with_second_tier
 end
 
 def monopoly_with_third_tier
-  {:railroads => {rent_in_dollars: {one_piece_owned: 25, :key_two => 2, :key_three => 3, :key_four => 4}, 
+  {:railroads => {rent_in_dollars: {one_piece_owned: 25, two_pieces_owned => 50, three_pieces_owned => 75, 
+  four_pieces_owned => 100}, 
   names: {key_name1: "name_one", key_name2: "name_two", key_name3: "name_three", key_name4: "name_four"}}}
 end
 
