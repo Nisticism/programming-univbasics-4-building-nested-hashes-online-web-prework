@@ -3,11 +3,11 @@ def base_hash
 end
 
 def monopoly_with_second_tier
-  {:railroads => "value"}
+  {:railroads => {key: "value"}}
 end
 
 def monopoly_with_third_tier
-  {:railroads => "value"}
+  {:railroads => {key: "value"}}
 end
 
 def monopoly_with_fourth_tier
