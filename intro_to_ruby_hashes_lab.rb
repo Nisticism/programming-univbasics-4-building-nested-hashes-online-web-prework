@@ -10,7 +10,7 @@ def monopoly_with_third_tier
   {:railroads => {rent_in_dollars: {one_piece_owned: 25, two_pieces_owned: 50, three_pieces_owned: 100, 
   four_pieces_owned: 200}, 
   names: {reading_railroad: {}, pennsylvania_railroad: {}, 
-  key_name3: "name_three", key_name4: "name_four"}}}
+  b_and_o_railroad: {}, key_name4: "name_four"}}}
 end
 
 def monopoly_with_fourth_tier
